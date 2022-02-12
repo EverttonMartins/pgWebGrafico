@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    grid-area: cabecalho;
+
+    background-color: rgb(77, 156, 235);
+    align-items: center;
+    text-align: left;
+    color: white;
+    
+    display: grid;
+    grid-template-columns: 15% 50%  35%;
+}
+main {
+    grid-area: conteudo;
+    
+    display: grid;
+    grid-template-rows: 16% 1fr;
+}
+footer {
+    grid-area: rodape;
+    
+    /* padding-top: 0px; */
+    margin-top: -20px ;
+    
+    align-items: center;
+    text-align: center;
+}
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 8% 1fr 8%;
+    grid-template-areas: 
+    'cabecalho'
+    'conteudo'
+    'rodape';
+}
+
+.conteudo1 {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    
+    align-items: center;
+    text-align: center;
+}
+
+.sub-conteudo1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    align-items: center;
+    text-align: center;
+    font-size: small;
+}
+
+.sub-conteudo2 {
+    align-items: center;
+    text-align: center;
+}
+
+.conteudo2{
+    display: grid;
+    grid-template-columns: 100% 100%;
+    overflow: hidden;
+}
+.conteudo2-1{
+    display: grid;
+    grid-template-rows: repeat(7, 1fr);
+}
+
+.conteudo2-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    align-items: center;
+    text-align: center;
+
+    position: relative;
+    right: 100%;
+    padding: 2%;
+    padding-left: 6%;
+}
+.coluna1 {
+    background-color: rgb(77, 156, 235);
+}
+.coluna2 {
+    background-color: rgb(77, 156, 235);
+}
+.coluna3 {
+    background-color: rgb(77, 156, 235);
+}
+.coluna4 {
+    background-color: rgb(77, 156, 235);
+}
+
+.linha {
+    display: grid;
+    grid-template-columns: 5% 95%;
+
+    align-items: center;
+    text-align: right;
+}
+
+.div-escala {
+    padding-right: 10px;
+    }
+
+.meses {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    margin-top: -30px;
+}
+
+.mes {
+    /* border: solid; */
+    height: 100%;
+    align-items: end;
+
+    display: grid;
+    
+    margin: 20px;
+    margin-bottom: 28px;
+    padding: 0px 25px;
+}
+
+.selecione {
+    display: flex;
+    justify-content: center;}
+.sumir{
+    display: none;}
+.mostar {
+    display: inline-block;}
+
+.relative {
+    position: relative;
+}
+

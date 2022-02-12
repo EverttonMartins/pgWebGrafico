@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>Menu</div>
+        <div>User Name</div>
+        <div>Sales Report</div>
+    </header>
+    <main>
+        <div class="conteudo1">
+            <div class="sub-conteudo1">
+                <div class="selecione">
+                    <p>Categoria</p>
+                    <select name="categoria" id="categoria">
+                        <option value="automovel" selected>Automóvel</option>
+                        <!-- ainda a implementar -->
+                        <!-- <option value="comida">Comida</option>
+                        <option value="roupa">Roupa</option> -->
+                      </select>
+                </div>
+                <div class="selecione">
+                    <p>Producto  </p>
+                    <select class ="produto-aut" id="produto-aut" >
+                        <option value="carro" selected>Carro</option>
+                        <option value="moto">Moto</option>
+                        <!-- <option value="triciculo">Triciculo</option> -->
+                      </select>
+                    <!-- <select class ="sumir produto-roupa" id="produto1-roupa">
+                        <option value="blusa" selected>Blusa</option>
+                        <option value="calca">Calça</option>
+                        <option value="bone">Bone</option>
+                      </select> -->
+                    <!-- <select class ="sumir produto-comida" id="produto-comida">
+                        <option value="macarao" selected>Macarão</option>
+                        <option value="feijao">Feijão</option>
+                        <option value="arroz">Arroz</option>
+                      </select> -->
+                </div>
+                <div class="selecione">
+                    <p>Marca  </p>
+                    <select class = "marcas" id="marcas">
+                        <option value="ferrari" selected>Ferrari</option>
+                        <option value="ford">Ford</option>
+                        <option value="VW">VW</option>
+                        </select>
+                    <select class = "sumir marcas1" id="marcas1">
+                        <option value="suzuki" selected>SUZUKI</option>
+                        <option value="honda">HONDA</option>
+                        <option value="yamaha">YAMAHA</option>
+                        </select>
+                </div>
+            </div>
+            <div class="sub-conteudo2">Sales By Month for:</div>
+        </div>
+        <div class="conteudo2">
+            <div class="conteudo2-1">
+            <div class="linha"> <div class="div-escala">600</div> <div><hr></div> </div>
+            <div class="linha"> <div class="div-escala">500</div> <div><hr></div> </div>
+            <div class="linha"> <div class="div-escala">400</div> <div><hr></div> </div>
+            <div class="linha"> <div class="div-escala">300</div> <div><hr></div> </div>
+            <div class="linha"> <div class="div-escala">200</div> <div><hr></div> </div>
+            <div class="linha"> <div class="div-escala">100</div> <div><hr></div> </div>
+            <div class="linha"> <div class="div-escala">0</div> <div><hr></div> </div>
+            </div>
+            
+            <div class="conteudo2-2" >
+                <div class="mes"  id=""><div class="coluna1" id="coluna1">January</div></div>
+                <div class="mes"  id=""><div class="coluna2" id="coluna2">February</div></div>
+                <div class="mes"  id=""><div class="coluna3" id="coluna3">March</div></div>
+                <div class="mes"  id=""><div class="coluna4" id="coluna4">April</div></div>
+            </div>          
+
+        </div>
+    </main>
+    <footer>Vendas</footer>
+<script src="script.js"></script>
+</body>
+</html>
